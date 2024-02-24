@@ -19,7 +19,7 @@ This is my personal website which contains about my profile, photos, links,socia
 ## Links
 - Figma: [portofolio-desain](https://www.figma.com/file/IcM2ePPR6tVG1zXMsHtZug/Portfolio-Website?type=design&node-id=0%3A1&mode=design&t=lhsMciXb1LSIa5YZ-1)
 - Website: [www.rosidmustofa.com](http://www.rosidmustofa.com)
-- Github : [www.github.com](https://github.com/rosid-mustofa)
+- Github : [www.github.com/rosid-mustofa](https://github.com/rosid-mustofa)
 
 Social Media Profiles:
 - [LinkedIn](https://www.linkedin.com/in/rosidmustofa)
