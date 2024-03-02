@@ -38,3 +38,7 @@ Social Media Profiles:
 If you're interested in collaborating or have any inquiries, feel free to reach out to me via social media.
 
 
+<<<<<<< HEAD
+=======
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+>>>>>>> origin/main
