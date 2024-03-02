@@ -3,7 +3,89 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<meta name="description" content="rosidmustofa.com,personal webiste" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+		<title>Rosid Mustofa | Offical Personal Website</title>
 	</head>
-	<body></body>
+	<body class="bg-background overflow-x-hidden">
+		<!-- header -->
+		<header
+			class="fixed top-0 right-0 left-0 md:py-1 transition-all duration-300">
+			<nav
+				class="max-w-7xl mx-auto bg-gray-800 md:bg-transparent p-5 order-[10001]">
+				<div class="flex items-center justify-between">
+					<a
+						href="/"
+						class="text-white font-bold text-lg flex items-center gap-3"
+						><img src="src/img/logobranding.png" alt="" class="w-27 h-12" />
+					</a>
+					<!-- only for large device -->
+					<div class="hidden md:flex space-x-10">
+						<a href="#home" class="block text-white py-2 mt-3 hover:bg-gray-700"
+							>Home</a
+						>
+						<a href="#skills" class="block text-white py-2 hover:bg-gray-700"
+							>Skills</a
+						>
+						<a
+							href="#portofolio"
+							class="block text-white py-2 hover:bg-gray-700"
+							>Portofolio</a
+						>
+						<a href="#about-me" class="block text-white py-2 hover:bg-gray-700"
+							>About Me</a
+						>
+						<a
+							href="#testimonials"
+							class="block text-white py-2 hover:bg-gray-700"
+							>Testimonials</a
+						>
+						<a href="#resume" class="block text-white py-2 hover:bg-gray-700"
+							>Download CV</a
+						>
+					</div>
+					<!-- menu btn, only disply on mobile -->
+					<div class="md:hidden">
+						<button id="mobile-menu-button" class="text-white text-2xl">
+							<i class="bx bx-menu"></i>
+						</button>
+					</div>
+				</div>
+
+				<!-- mobile menu -->
+				<div id="mobile-menu" class="hidden md:hidden">
+					<a href="#home" class="block text-white py-2 mt-3 hover:bg-gray-700"
+						>Home</a
+					>
+					<a href="#skills" class="block text-white py-2 hover:bg-gray-700"
+						>Skills</a
+					>
+					<a href="#portofolio" class="block text-white py-2 hover:bg-gray-700"
+						>Portofolio</a
+					>
+					<a href="#about-me" class="block text-white py-2 hover:bg-gray-700"
+						>About Me</a
+					>
+					<a
+						href="#testimonials"
+						class="block text-white py-2 hover:bg-gray-700"
+						>Testimonials</a
+					>
+					<a href="#resume" class="block text-white py-2 hover:bg-gray-700"
+						>Download CV</a
+					>
+				</div>
+			</nav>
+		</header>
+		<!-- script tags -->
+		<script src="src/js/app.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="src/review.js"></script>
+	</body>
 </html>
